@@ -1,14 +1,4 @@
-// const  data = {
-//   "username": "Jacques Gluke",
-//   "tag": "jgluke",
-//   "location": "Ocho Rios, Jamaica",
-//   "avatar": "https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
-//   "stats": {
-//     "followers": 5603,
-//     "views": 4827,
-//     "likes": 1308
-//   }
-// }
+import PropTypes from 'prop-types';
 
 const Profile = props => {
   const { avatar, username, tag, location, stats } = props;
@@ -37,6 +27,14 @@ const Profile = props => {
       </ul>
     </div>
   );
+};
+
+Profile.propTypes = {
+  avatar: PropTypes.string,
+  username: PropTypes.string,
+  tag: PropTypes.string,
+  location: PropTypes.string,
+  stats: PropTypes.object
 };
 
 export default Profile;
