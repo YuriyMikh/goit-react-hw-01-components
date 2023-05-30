@@ -1,8 +1,8 @@
-import Profile from 'components/user/Profile';
-import Statistics from 'components/statistic/Statistic';
+import Profile from 'components/Profile/Profile';
+import Statistics from 'components/Statistic/Statistic';
 
-import user from './user/user.json';
-import data from './statistic/data.json';
+import user from './Profile/user.json';
+import data from './Statistic/data.json';
 
 console.log(data);
 
