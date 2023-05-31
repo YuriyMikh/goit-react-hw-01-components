@@ -5,9 +5,9 @@ import TransactionHistory from 'components/Transactions/TransactionHistory';
 
 import user from './Profile/user.json';
 import data from './Statistics/data.json';
-import friends from './FriendList/friends.json';
-import transactions from './Transactions/transactions.json';
-
+import friends from './FriendList/friends';
+// import transactions from './Transactions/transactions.json';
+import transactions from './Transactions/transactions';
 
 export const App = () => {
   return (
