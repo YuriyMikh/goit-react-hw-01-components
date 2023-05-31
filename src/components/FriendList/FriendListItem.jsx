@@ -17,4 +17,4 @@ FriendListItem.protoTypes = {
   isOnline: PropTypes.bool,
 };
 
-export default FriendListItem
+export default FriendListItem;
