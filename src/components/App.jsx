@@ -10,7 +10,19 @@ import transactions from './transactions/transactions.json';
 
 const App = () => {
   return (
-    <div>
+    <div
+      style={{
+        // height: '100vh',
+        width: 800,
+        margin: '0 auto',
+        padding: '30px',
+        // display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        fontSize: 16,
+        // color: '#010101'
+      }}
+    >
       <Profile
         username={user.username}
         tag={user.tag}
