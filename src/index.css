@@ -1,5 +1,11 @@
 @import-normalize; /* bring in normalize.css styles */
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -17,4 +23,18 @@ code {
 ul,
 ol {
   list-style: none;
+}
+
+.App {
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  background-color: #f2f2f2;
+  align-items: center;
+  font-size: 40;
+  color: #010101;
+  min-height: calc(100vh);
 }
