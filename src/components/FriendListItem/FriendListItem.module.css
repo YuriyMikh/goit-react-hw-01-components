@@ -1,0 +1,20 @@
+.status {
+  margin: 8px;
+  padding: 5px 16px;
+  border-radius: 50%;
+  background-color: grey;
+}
+
+.isOnline {
+  margin: 8px;
+  padding: 5px 16px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.isOffline {
+  margin: 8px;
+  padding: 5px 16px;
+  border-radius: 50%;
+  background-color: red;
+}

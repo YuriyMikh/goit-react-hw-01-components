@@ -12,16 +12,12 @@ const App = () => {
   return (
     <div
       style={{
-        // height: '100vh',
         width: 800,
         margin: '0 auto',
         padding: '30px',
-        // display: 'flex',
         justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 16,
-        // color: '#010101'
-      }}
+        // alignItems: 'center',
+            }}
     >
       <Profile
         username={user.username}
@@ -32,7 +28,7 @@ const App = () => {
       />
 
       <Statistics title="Upload stats" stats={data} />
-
+      
       <FriendList friends={friends} />
 
       <TransactionHistory items={transactions} />
