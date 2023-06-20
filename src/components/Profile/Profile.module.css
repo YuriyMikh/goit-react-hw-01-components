@@ -62,12 +62,12 @@
   align-items: center;
   justify-content: center;
 
-  cursor: pointer;
+  /* cursor: pointer; */
   transition: background-color ease 250ms;
 }
-.stats > li:hover {
+/* .stats > li:hover {
   background-color: rgba(217, 236, 249, 0.75);
-}
+} */
 
 .stats > li:nth-child(2) {
   border-left: solid 2px rgba(217, 236, 249);
