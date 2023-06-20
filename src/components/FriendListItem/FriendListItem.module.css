@@ -42,7 +42,7 @@ background-color: rgb(255, 82, 82);
 }
 
 .name {
-  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: calc(16px + 2vmin);
   font-weight: 400;
   color: #333;
